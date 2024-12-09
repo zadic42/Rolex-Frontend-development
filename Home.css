@@ -1,0 +1,72 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    padding: 8px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.logo:hover{
+    transform: scale(1,1);
+}
+header{
+    background-color: #006039;
+    backdrop-filter: blur(40px);
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .logo{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 0.3cm;
+    margin-left: -2cm;
+    color: white;
+    cursor: pointer;
+}
+.Home, .Home a{
+    color: white;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 0.1cm;
+    transition: 0.3s ease;
+}
+.Home:hover, .Home a:hover{
+    color: #006039;
+}
+.Enquiry ,.Enquiry a{
+    color: white;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 0.1cm;
+    transition: 0.3s ease;
+}
+.Enquiry:hover, .Enquiry a:hover{
+    color: #006039;
+}
+nav{
+    padding: 2% 20%;
+    display: flex;
+    gap: 0.3cm;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1cm;
+}
